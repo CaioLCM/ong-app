@@ -5,7 +5,7 @@ export const ongs = [
     description: "Organização dedicada ao resgate e proteção de animais abandonados, promovendo adoção responsável e conscientização sobre bem-estar animal.",
     category: "Proteção Animal",
     logo: "🐾",
-    pixKey: "00020101021226800014br.gov.bcb.pix013628ef3022-01b5-417a-946e-83cfd0806e9a0218AgenciaArteCultura5204000053039865802BR5925AGENCIA ARTE ACAO CULTURA6009SAO PAULO62220518ProjetoAlimente63045D28",
+    pixKey: "00020101021226780014br.gov.bcb.pix013628ef3022-01b5-417a-946e-83cfd0806e9a0218AgenciaArteCultura5204000053039865802BR5915PROJETOALIMENTE6009SAO PAULO621E0518AgenciaArteCultura63040583",
     pixDescription: "ONG Amigos dos Animais - Doação para proteção animal",
     pixQRCode: "00020101021226800014br.gov.bcb.pix013628ef3022-01b5-417a-946e-83cfd0806e9a0218AgenciaArteCultura5204000053039865802BR5925AGENCIA ARTE ACAO CULTURA6009SAO PAULO62220518ProjetoAlimente63045D28",
     website: "https://amigosdosanimais.org.br",
