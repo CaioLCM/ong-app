@@ -40,7 +40,6 @@ const TabNavigation = ({ activeTab, onTabChange }) => {
   const tabs = [
     { id: 'ongs', label: 'Projetos sociais' },
     { id: 'sobre', label: 'Sobre a Pier' },
-    { id: 'estudantes', label: 'Para Estudantes' },
     { id: 'empresas', label: 'Para Empresas' },
     { id: 'atividades', label: 'Atividades' },
   ];
