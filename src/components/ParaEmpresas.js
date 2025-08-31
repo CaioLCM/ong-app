@@ -265,6 +265,21 @@ const ParaEmpresas = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    // Monta o corpo do email
+    const destinatario = 'caio.lene.magalhaes@gmail.com';
+    const assunto = encodeURIComponent('Solicitação de Relatório de Colaboração Empresarial');
+    const corpo = encodeURIComponent(
+      `Empresa: ${formData.empresa}\n` +
+      `CNPJ: ${formData.cnpj}\n` +
+      `Responsável: ${formData.responsavel}\n` +
+      `Email Corporativo: ${formData.email}\n` +
+      `Telefone: ${formData.telefone}\n` +
+      `Período do Relatório: ${formData.periodo}\n` +
+      `Projetos Colaborados: ${formData.ongs}\n` +
+      `Valor Total: ${formData.valorTotal}\n` +
+      `Descrição das Ações: ${formData.descricao}\n`
+    );
+    window.location.href = `mailto:${destinatario}?subject=${assunto}&body=${corpo}`;
     setShowPreview(true);
   };
 

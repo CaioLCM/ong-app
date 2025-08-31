@@ -217,7 +217,16 @@ const ParaEstudantes = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert('Certificado gerado com sucesso! Verifique seu email.');
+    // Monta o corpo do email
+    const destinatario = 'caio.lene.magalhaes@gmail.com';
+    const assunto = encodeURIComponent('Solicitação de Certificado de Voluntariado');
+    const corpo = encodeURIComponent(
+      `CPF: ${formData.nome}\n` +
+      `Email: ${formData.email}\n` +
+      `Instituição de Ensino: ${formData.instituicao}\n` +
+      `ONG: ${formData.curso}\n`
+    );
+    window.location.href = `mailto:${destinatario}?subject=${assunto}&body=${corpo}`;
   };
 
   return (

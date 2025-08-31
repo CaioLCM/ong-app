@@ -393,7 +393,7 @@ const Atividades = () => {
           <HighlightTitle>🎯 Participe e Faça a Diferença</HighlightTitle>
           <HighlightText>
             Junte-se aos <strong>6 projetos parceiros</strong> em suas atividades e ajude a transformar 
-            a vida de milhares de pessoas na nossa comunidade!
+            a vida de milhares de pessoas na nossa comunidade! Faz parte de um projeto social e gostaria de adiconar uma atividade? Mande um email para <strong>caio.lene.magalhaes@gmail.com</strong>
           </HighlightText>
         </HighlightBox>
 
