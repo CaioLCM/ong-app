@@ -1,9 +1,10 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Pier",
+  "name": "Pier - Plataforma de Colaboração Social",
+  "description": "Conecte-se com ONGs de Itajubá e região, faça doações via PIX e tenha acesso a benefícios exclusivos.",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "logo-pier.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
@@ -20,6 +21,9 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#1e3a8a",
+  "background_color": "#ffffff",
+  "orientation": "portrait",
+  "categories": ["social", "charity", "volunteering"],
+  "lang": "pt-BR"
 }
