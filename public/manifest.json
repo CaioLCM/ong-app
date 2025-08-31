@@ -4,7 +4,7 @@
   "description": "Conecte-se com ONGs de Itajubá e região, faça doações via PIX e tenha acesso a benefícios exclusivos.",
   "icons": [
     {
-      "src": "logo-pier.ico",
+      "src": "%PUBLIC_URL%/logo-pier.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },

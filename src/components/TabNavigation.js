@@ -44,7 +44,6 @@ const TabNavigation = ({ activeTab, onTabChange }) => {
     { id: 'empresas', label: 'Para Empresas' },
     { id: 'ranking', label: '🏆 Ranking' },
     { id: 'atividades', label: '📅 Atividades' },
-    { id: 'login', label: 'Login' }
   ];
 
   return (

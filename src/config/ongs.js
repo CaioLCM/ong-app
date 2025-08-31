@@ -1,13 +1,13 @@
 export const ongs = [
   {
     id: 1,
-    name: "Agência arte & ação cultural",
+    name: "Projeto alimente",
     description: "Organização dedicada ao resgate e proteção de animais abandonados, promovendo adoção responsável e conscientização sobre bem-estar animal.",
     category: "Proteção Animal",
     logo: "🐾",
-    pixKey: "00020101021226800014br.gov.bcb.pix013628ef3022-01b5-417a-946e-83cfd0806e9a0218AgenciaArteCultura5204000053039865802BR5925AGENCIA ARTE ACAO CULTURA6009SAO PAULO62220518AgenciaArteCultura63045D28",
+    pixKey: "00020101021226800014br.gov.bcb.pix013628ef3022-01b5-417a-946e-83cfd0806e9a0218AgenciaArteCultura5204000053039865802BR5925AGENCIA ARTE ACAO CULTURA6009SAO PAULO62220518ProjetoAlimente63045D28",
     pixDescription: "ONG Amigos dos Animais - Doação para proteção animal",
-    pixQRCode: "00020101021226800014br.gov.bcb.pix013628ef3022-01b5-417a-946e-83cfd0806e9a0218AgenciaArteCultura5204000053039865802BR5925AGENCIA ARTE ACAO CULTURA6009SAO PAULO62220518AgenciaArteCultura63045D28",
+    pixQRCode: "00020101021226800014br.gov.bcb.pix013628ef3022-01b5-417a-946e-83cfd0806e9a0218AgenciaArteCultura5204000053039865802BR5925AGENCIA ARTE ACAO CULTURA6009SAO PAULO62220518ProjetoAlimente63045D28",
     website: "https://amigosdosanimais.org.br",
     phone: "(11) 99999-9999"
   },
