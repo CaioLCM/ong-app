@@ -38,12 +38,11 @@ const Tab = styled.button`
 
 const TabNavigation = ({ activeTab, onTabChange }) => {
   const tabs = [
-    { id: 'ongs', label: 'ONGs' },
+    { id: 'ongs', label: 'Projetos sociais' },
     { id: 'sobre', label: 'Sobre a Pier' },
     { id: 'estudantes', label: 'Para Estudantes' },
     { id: 'empresas', label: 'Para Empresas' },
-    { id: 'ranking', label: '🏆 Ranking' },
-    { id: 'atividades', label: '📅 Atividades' },
+    { id: 'atividades', label: 'Atividades' },
   ];
 
   return (

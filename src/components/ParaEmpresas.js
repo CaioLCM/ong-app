@@ -278,7 +278,7 @@ const ParaEmpresas = () => {
         <Title>Para Empresas</Title>
         
         <Text>
-          Como empresa, você tem acesso a ferramentas exclusivas para gerenciar suas colaborações com ONGs, 
+          Como empresa, você tem acesso a ferramentas exclusivas para gerenciar suas colaborações com projetos sociais, 
           gerar relatórios detalhados e demonstrar seu compromisso com a responsabilidade social corporativa.
         </Text>
 
@@ -344,19 +344,19 @@ const ParaEmpresas = () => {
         
         <StatsGrid>
           <StatCard>
-            <StatNumber>150+</StatNumber>
+            <StatNumber>10 +</StatNumber>
             <StatLabel>Empresas Parceiras</StatLabel>
           </StatCard>
           <StatCard>
-            <StatNumber>R$ 2.5M+</StatNumber>
+            <StatNumber>R$ 100 +</StatNumber>
             <StatLabel>Em Doações</StatLabel>
           </StatCard>
           <StatCard>
-            <StatNumber>500+</StatNumber>
+            <StatNumber>2 +</StatNumber>
             <StatLabel>Relatórios Gerados</StatLabel>
           </StatCard>
           <StatCard>
-            <StatNumber>95%</StatNumber>
+            <StatNumber>100%</StatNumber>
             <StatLabel>Satisfação</StatLabel>
           </StatCard>
         </StatsGrid>
@@ -364,7 +364,7 @@ const ParaEmpresas = () => {
         <ReportSection>
           <ReportTitle>📊 Gerar Relatório de Colaboração</ReportTitle>
           <Text style={{ color: 'white', marginBottom: '20px', textAlign: 'center' }}>
-            Preencha os dados abaixo para gerar um relatório completo das suas colaborações com ONGs. 
+            Preencha os dados abaixo para gerar um relatório completo das suas colaborações com projetos sociais. 
             O documento será personalizado com sua marca e dados específicos.
           </Text>
           
@@ -468,7 +468,7 @@ const ParaEmpresas = () => {
                 <strong>Responsável:</strong> {formData.responsavel}<br/>
                 <strong>Período:</strong> {formData.periodo}<br/>
                 <strong>Valor Total:</strong> {formData.valorTotal}<br/><br/>
-                <strong>ONGs Colaboradas:</strong> {formData.ongs}<br/><br/>
+                <strong>Projetos Colaborados:</strong> {formData.ongs}<br/><br/>
                 <strong>Descrição das Ações:</strong><br/>
                 {formData.descricao}<br/><br/>
                 <strong>Data de Geração:</strong> {new Date().toLocaleDateString('pt-BR')}<br/>
@@ -489,13 +489,10 @@ const ParaEmpresas = () => {
           <strong>1. Cadastro da Empresa:</strong> Faça o cadastro da sua empresa na plataforma Pier.
         </Text>
         <Text>
-          <strong>2. Realize Colaborações:</strong> Faça doações para ONGs através da plataforma.
+          <strong>2. Realize Colaborações:</strong> Faça doações para projetos sociais através da plataforma.
         </Text>
         <Text>
           <strong>3. Gere Relatórios:</strong> Use o formulário acima para gerar relatórios personalizados.
-        </Text>
-        <Text>
-          <strong>4. Acompanhe o Impacto:</strong> Monitore o impacto social das suas ações em tempo real.
         </Text>
       </ContentCard>
     </Container>

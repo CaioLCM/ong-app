@@ -133,7 +133,7 @@ function App() {
     <AppContainer>
       <Header>
         <PierLogo>Pier</PierLogo>
-        <Title>Colabora com as ONGs de Itajubá e <br></br>tenha acesso a benefícios exclusivos!</Title>
+        <Title>Colabore com os projetos sociais de Itajubá e <br></br>tenha acesso a benefícios exclusivos!</Title>
         <Subtitle>Faça sua doação via PIX e ajude quem precisa</Subtitle>
       </Header>
       

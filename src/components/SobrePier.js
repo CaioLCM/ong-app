@@ -108,17 +108,16 @@ const SobrePier = () => {
         <Text>
           Fundada com o propósito de transformar a forma como as pessoas se conectam com causas sociais, 
           a Pier nasceu da convicção de que a tecnologia pode ser uma força poderosa para o bem. 
-          Começamos como uma startup focada em conectar doadores com ONGs locais, e hoje somos uma 
-          plataforma completa de engajamento social.
+          Ainda estamos no começo de nossa jornada, focando apenas nas causas regionais.
         </Text>
 
         <HighlightBox>
-          🌟 Conectando mais de 100 ONGs com milhares de doadores em Itajubá e região
+          🌟 Conectando mais de 20 projetos sociais com diversos doadores em Itajubá e região
         </HighlightBox>
 
         <Subtitle>Nossa Missão</Subtitle>
         <Text>
-          Facilitar e incentivar a doação para organizações não-governamentais, promovendo a 
+          Facilitar e incentivar a doação para projetos sociais, promovendo a 
           transparência, a eficiência e o impacto social. Queremos que cada pessoa possa 
           contribuir de forma significativa para causas que acredita, independentemente do valor da doação.
         </Text>
@@ -128,7 +127,7 @@ const SobrePier = () => {
             <FeatureIcon>🔗</FeatureIcon>
             <FeatureTitle>Conectividade</FeatureTitle>
             <FeatureText>
-              Conectamos doadores diretamente com ONGs locais, eliminando intermediários 
+              Conectamos doadores diretamente com projetos sociais locais, eliminando intermediários 
               e maximizando o impacto das doações.
             </FeatureText>
           </FeatureCard>
@@ -167,7 +166,7 @@ const SobrePier = () => {
         </Text>
         <Text>
           <strong>Comunidade:</strong> Acreditamos no poder da comunidade e trabalhamos para 
-          fortalecer os laços entre doadores, ONGs e beneficiários.
+          fortalecer os laços entre doadores, projetos sociais e beneficiários.
         </Text>
 
         <Subtitle>Nossa Visão</Subtitle>

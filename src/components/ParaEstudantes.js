@@ -226,7 +226,7 @@ const ParaEstudantes = () => {
         <Title>Para Estudantes</Title>
         
         <Text>
-          Como estudante, você tem acesso a benefícios exclusivos ao colaborar com ONGs através da plataforma Pier. 
+          Como estudante, você tem acesso a benefícios exclusivos ao colaborar com projetos sociais através da plataforma Pier. 
           Além de fazer o bem, você ganha certificados reconhecidos e desenvolve habilidades importantes para seu futuro.
         </Text>
 
@@ -237,7 +237,7 @@ const ParaEstudantes = () => {
             <BenefitIcon>🎓</BenefitIcon>
             <BenefitTitle>Certificados Reconhecidos</BenefitTitle>
             <BenefitText>
-              Receba certificados oficiais da Pier e das ONGs para comprovar suas horas de voluntariado 
+              Receba certificados oficiais da Pier e dos projetos sociais para comprovar suas horas de voluntariado 
               e colaboração social.
             </BenefitText>
           </BenefitCard>
@@ -292,19 +292,19 @@ const ParaEstudantes = () => {
         
         <StatsGrid>
           <StatCard>
-            <StatNumber>2.500+</StatNumber>
+            <StatNumber>40</StatNumber>
             <StatLabel>Estudantes Ativos</StatLabel>
           </StatCard>
           <StatCard>
-            <StatNumber>15.000+</StatNumber>
+            <StatNumber>10</StatNumber>
             <StatLabel>Horas de Voluntariado</StatLabel>
           </StatCard>
           <StatCard>
-            <StatNumber>500+</StatNumber>
+            <StatNumber>2</StatNumber>
             <StatLabel>Certificados Emitidos</StatLabel>
           </StatCard>
           <StatCard>
-            <StatNumber>50+</StatNumber>
+            <StatNumber>10</StatNumber>
             <StatLabel>Instituições Parceiras</StatLabel>
           </StatCard>
         </StatsGrid>

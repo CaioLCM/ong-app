@@ -381,10 +381,10 @@ const Atividades = () => {
   return (
     <Container>
       <ContentCard>
-        <Title>📅 Atividades e Eventos das ONGs</Title>
+        <Title>📅 Atividades e Eventos dos projetos sociais</Title>
         
         <Text>
-          Fique por dentro de todas as atividades, eventos e notícias das ONGs parceiras da Pier. 
+          Fique por dentro de todas as atividades, eventos e notícias dos projetos parceiros da Pier. 
           Aqui você encontra oportunidades de voluntariado, eventos para participar e as últimas 
           novidades do terceiro setor em Itajubá e região.
         </Text>
@@ -392,7 +392,7 @@ const Atividades = () => {
         <HighlightBox>
           <HighlightTitle>🎯 Participe e Faça a Diferença</HighlightTitle>
           <HighlightText>
-            Junte-se às <strong>6 ONGs parceiras</strong> em suas atividades e ajude a transformar 
+            Junte-se aos <strong>6 projetos parceiros</strong> em suas atividades e ajude a transformar 
             a vida de milhares de pessoas na nossa comunidade!
           </HighlightText>
         </HighlightBox>
@@ -447,7 +447,7 @@ const Atividades = () => {
           <strong>1. Escolha uma atividade:</strong> Navegue pela timeline e encontre algo que te interesse.
         </Text>
         <Text>
-          <strong>2. Entre em contato:</strong> Use as informações da ONG para se inscrever ou obter mais detalhes.
+          <strong>2. Entre em contato:</strong> Use as informações do projeto social para se inscrever ou obter mais detalhes.
         </Text>
         <Text>
           <strong>3. Participe:</strong> Junte-se à atividade e faça a diferença na comunidade.

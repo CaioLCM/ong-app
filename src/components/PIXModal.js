@@ -194,10 +194,6 @@ function PIXModal({ ong, onClose }) {
               <strong>Chave PIX:</strong>
               <span>{pixKey}</span>
             </PIXInfoItem>
-            <PIXInfoItem>
-              <strong>Descrição:</strong>
-              <span>{pixDescription}</span>
-            </PIXInfoItem>
           </PIXInfo>
           
           <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap', justifyContent: 'center' }}>

@@ -34,7 +34,7 @@ function CategoryFilter({ selectedCategory, onCategoryChange }) {
         active={!selectedCategory}
         onClick={() => onCategoryChange(null)}
       >
-        Todas as ONGs
+        Todos os projetos sociais
       </FilterButton>
       
       {categories.map((category) => (
