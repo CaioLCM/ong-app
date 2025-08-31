@@ -1,70 +1,194 @@
-# Getting Started with Create React App
+# 🚀 Pier - Plataforma de Colaboração Social
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Uma plataforma inovadora que conecta pessoas, organizações e empresas através da tecnologia, criando um ecossistema de colaboração e impacto social positivo em Itajubá e região.
 
-## Available Scripts
+## ✨ Funcionalidades Principais
 
-In the project directory, you can run:
+### 🏠 **ONGs e Doações**
+- Lista completa de ONGs organizadas por categoria
+- Sistema de doação via PIX integrado
+- Filtros por categoria (Proteção Animal, Educação, Meio Ambiente, Saúde, Habitação, Esporte)
+- Estatísticas em tempo real das doações
 
-### `npm start`
+### 🏢 **Sobre a Pier**
+- Informações detalhadas sobre a empresa
+- História, missão, valores e visão
+- Destaque para o impacto social gerado
+- Apresentação dos diferenciais da plataforma
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 🎓 **Para Estudantes**
+- Benefícios exclusivos para estudantes
+- Sistema de geração de certificados de voluntariado
+- Desenvolvimento profissional através do voluntariado
+- Estatísticas de estudantes ativos na plataforma
+- Formulário para solicitação de certificados
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 💼 **Para Empresas**
+- Ferramentas exclusivas para gestão corporativa
+- Geração de relatórios detalhados de colaboração
+- Certificação de impacto social
+- Métricas de performance e ROI social
+- Formulário para geração de relatórios personalizados
 
-### `npm test`
+### 🔐 **Sistema de Login**
+- Autenticação por email e senha
+- Suporte a diferentes tipos de usuário (Pessoa Física, Empresa, ONG)
+- Login social (Google, Facebook, LinkedIn)
+- Recuperação de senha
+- Cadastro de novos usuários
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Tecnologias Utilizadas
 
-### `npm run build`
+- **Frontend**: React.js
+- **Estilização**: Styled Components
+- **Design System**: Tema personalizado com cores e componentes reutilizáveis
+- **Responsividade**: Design mobile-first com breakpoints otimizados
+- **Acessibilidade**: Componentes semânticos e navegação por teclado
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Como Executar
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Pré-requisitos
+- Node.js (versão 14 ou superior)
+- npm ou yarn
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Instalação
+```bash
+# Clone o repositório
+git clone [URL_DO_REPOSITORIO]
 
-### `npm run eject`
+# Entre na pasta do projeto
+cd ong-pix-app
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Instale as dependências
+npm install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Execute o projeto em modo de desenvolvimento
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Build de Produção
+```bash
+# Gere o build otimizado
+npm run build
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Teste o build localmente
+npm install -g serve
+serve -s build
+```
 
-## Learn More
+## 📱 Funcionalidades por Aba
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### **Aba ONGs** (Padrão)
+- Visualização das ONGs disponíveis
+- Filtros por categoria
+- Sistema de doação via PIX
+- Estatísticas gerais
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### **Aba Sobre a Pier**
+- Informações institucionais
+- História e valores da empresa
+- Diferenciais da plataforma
 
-### Code Splitting
+### **Aba Para Estudantes**
+- Benefícios exclusivos
+- Geração de certificados
+- Estatísticas de estudantes
+- Formulário de solicitação
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### **Aba Para Empresas**
+- Ferramentas corporativas
+- Geração de relatórios
+- Métricas de impacto
+- Formulário de relatórios
 
-### Analyzing the Bundle Size
+### **Aba Login**
+- Sistema de autenticação
+- Login social
+- Recuperação de senha
+- Cadastro de usuários
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🎨 Design System
 
-### Making a Progressive Web App
+### Cores
+- **Primárias**: Azuis (#1e3a8a, #3b82f6)
+- **Secundárias**: Amarelos (#fbbf24, #f59e0b)
+- **Texto**: Cinzas (#1f2937, #6b7280)
+- **Fundo**: Gradientes azuis
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Componentes
+- Cards com backdrop-filter e sombras
+- Botões com gradientes e hover effects
+- Formulários responsivos
+- Navegação por abas
+- Modais e overlays
 
-### Advanced Configuration
+### Responsividade
+- Breakpoints: Mobile (768px), Tablet (1024px), Desktop (1200px)
+- Grid layouts adaptativos
+- Componentes mobile-first
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🔧 Estrutura do Projeto
 
-### Deployment
+```
+src/
+├── components/          # Componentes React
+│   ├── CategoryFilter.js
+│   ├── Login.js
+│   ├── ONGList.js
+│   ├── ParaEmpresas.js
+│   ├── ParaEstudantes.js
+│   ├── PIXModal.js
+│   ├── SobrePier.js
+│   ├── StatsSection.js
+│   └── TabNavigation.js
+├── config/             # Configurações
+│   ├── ongs.js        # Dados das ONGs
+│   └── theme.js       # Sistema de design
+├── App.js             # Componente principal
+└── index.js           # Ponto de entrada
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📊 Dados das ONGs
 
-### `npm run build` fails to minify
+O sistema inclui 6 ONGs organizadas por categoria:
+- **Proteção Animal**: Agência arte & ação cultural
+- **Educação**: Associação anjos da luz
+- **Meio Ambiente**: Associação das antigas alunas da providência
+- **Saúde**: Associação de educação saúde e cultura AESC
+- **Habitação**: Associação de integração social de Itajubá
+- **Esporte**: Associação de pais e amigos dos excepcionais de Itajubá
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🚀 Próximos Passos
+
+- [ ] Implementar backend para autenticação
+- [ ] Sistema de geração real de certificados
+- [ ] Geração de relatórios em PDF
+- [ ] Dashboard personalizado para usuários logados
+- [ ] Sistema de notificações
+- [ ] Integração com APIs de pagamento
+- [ ] Sistema de gamificação
+- [ ] App mobile nativo
+
+## 🤝 Contribuição
+
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
+3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
+4. Push para a branch (`git push origin feature/AmazingFeature`)
+5. Abra um Pull Request
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
+
+## 📞 Contato
+
+- **Empresa**: Pier
+- **Localização**: Itajubá, MG
+- **Email**: contato@pier.com.br
+- **Website**: www.pier.com.br
+
+---
+
+**Pier** - Transformando a forma como as pessoas se conectam com causas sociais através da tecnologia. 🌟
+# ong-app
